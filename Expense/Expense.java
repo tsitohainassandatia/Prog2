@@ -25,5 +25,13 @@ public class Expense {
         return date;
     }
 
+    public boolean isLargeExpense(){
+        if (amount > 100.0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     
 }
